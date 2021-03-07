@@ -8881,11 +8881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Apps\\customer-service\\PracteceService.Test\\PracteceService.Test.csproj",
+      "projectUniqueName": "C:\\Apps\\practece-service\\PracteceService.Test\\PracteceService.Test.csproj",
       "projectName": "PracteceService.Test",
-      "projectPath": "C:\\Apps\\customer-service\\PracteceService.Test\\PracteceService.Test.csproj",
+      "projectPath": "C:\\Apps\\practece-service\\PracteceService.Test\\PracteceService.Test.csproj",
       "packagesPath": "C:\\Users\\emuxito\\.nuget\\packages\\",
-      "outputPath": "C:\\Apps\\customer-service\\PracteceService.Test\\obj\\",
+      "outputPath": "C:\\Apps\\practece-service\\PracteceService.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emuxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8903,8 +8903,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Apps\\customer-service\\PracteceService\\PracteceService.csproj": {
-              "projectPath": "C:\\Apps\\customer-service\\PracteceService\\PracteceService.csproj"
+            "C:\\Apps\\practece-service\\PracteceService\\PracteceService.csproj": {
+              "projectPath": "C:\\Apps\\practece-service\\PracteceService\\PracteceService.csproj"
             }
           }
         }

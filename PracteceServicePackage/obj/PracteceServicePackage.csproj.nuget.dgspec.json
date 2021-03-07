@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Apps\\customer-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {}
+    "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {}
   },
   "projects": {
-    "C:\\Apps\\customer-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
+    "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Apps\\customer-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
+        "projectUniqueName": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
         "projectName": "PracteceServicePackage",
-        "projectPath": "C:\\Apps\\customer-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
+        "projectPath": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
         "packagesPath": "C:\\Users\\emuxito\\.nuget\\packages\\",
-        "outputPath": "C:\\Apps\\customer-service\\PracteceServicePackage\\obj\\",
+        "outputPath": "C:\\Apps\\practece-service\\PracteceServicePackage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emuxito\\AppData\\Roaming\\NuGet\\NuGet.Config",

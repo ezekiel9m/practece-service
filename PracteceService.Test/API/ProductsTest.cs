@@ -179,7 +179,7 @@ namespace PracteceService.Test.API
         /// </summary>
         /// <returns></returns>
         [Trait("products", "DELETE")]
-        public async Task<ResponseMessage> DeleteCustomer()
+        public async Task<ResponseMessage> DeleteProduct()
         {
             var productId = 1;
 

@@ -229,7 +229,7 @@ namespace PracteceService.Test.API
         {
             var product = new ProductsTest();
 
-            var resp = await product.DeleteCustomer();
+            var resp = await product.DeleteProduct();
 
             Assert.Equal(HttpStatusCode.NoContent, resp.response.StatusCode);
         }

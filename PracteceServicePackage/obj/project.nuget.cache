@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KKeu4D7Ad85GfoxwvkyMYEqQ5adThg0ZRd8m34QuYdUM8iZ8ezFuSVum37G6H/UhpxdhQwPD/8bHozV5vbHWwg==",
+  "dgSpecHash": "eSDLIAa4BfXayy6cX9QblDUHMm1ilwQEUxRc/NGbFU46hVz64MPS/2MWNR65qmxXWtS75hiwkJzcixJ0nqEH/g==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\customer-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
+  "projectFilePath": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emuxito\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\emuxito\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

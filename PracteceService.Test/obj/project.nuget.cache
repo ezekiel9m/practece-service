@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZlVok33YMRf6girM/4m6Gb/mA0NkA2cM6eBGnlfWMOn9LU4LHbrF85RYYQhOeL7iqwIUbsJTM1rtVvzAcqY4wQ==",
+  "dgSpecHash": "hq0zir6rmGJ7vr21ex32p+K7mziFtXyra/tgiATuHh0ECtPerBeIhLb6YZ1iDuhxhj9dR6oiljTdlRy/sFd8Iw==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\customer-service\\PracteceService.Test\\PracteceService.Test.csproj",
+  "projectFilePath": "C:\\Apps\\practece-service\\PracteceService.Test\\PracteceService.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emuxito\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\emuxito\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WT6mnRzOq4mQP2/fh9AVScXjHKjLhOsaiUC7jrx8Ml7bUNO9JmpKBrQcJRvhQwli9Rnhx1kSC63QDoB0XnkVrw==",
+  "dgSpecHash": "w6gZMOXXAkNc8ri4/+kgszVtvnP5ZSWrUsKIzVfQrl/byZ7n/hnS3sjIm0SrcdFZDVBjAZWmJ0du7TMttIESQQ==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\customer-service\\PracteceService\\PracteceService.csproj",
+  "projectFilePath": "C:\\Apps\\practece-service\\PracteceService\\PracteceService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emuxito\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\emuxito\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
