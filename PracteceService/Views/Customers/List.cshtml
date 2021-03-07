@@ -1,0 +1,43 @@
+﻿@model IEnumerable<PracteceService.Models.Customer.CustomerModel>
+@{
+    ViewData["Title"] = "List Customer";
+}
+
+<div class="container-fluid">
+   
+    <p></p>
+    <table class="display table table-hover" id="minhaTabela">
+        <h2 align="center"><b style="color: black">Tabela de Clientes</b></h2>
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" width="2%">Id</th>
+                <th scope="col" width="5%">Nome</th>
+                <th scope="col" width="10%">Sobrenome</th>
+                <th scope="col" width="14%">Documento</th>
+                <th scope="col" width="14%">Telefone</th>
+                <th scope="col" width="19%">Email</th>
+                <th scope="col" width="5%">Sexo</th>
+                <th scope="col" width="20%"></th>
+                <th scope="col" width="20%"></th>
+                <th scope="col" width="20%"> <a class="btn btn-outline-secondary btn-sm pull-right" asp-controller="Customers" asp-action="Forms" style="color:white">Cadastrar</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr style="color:black">
+                    <td width="2%">@item.Code</td>
+                    <td width="10%">@item.Name</td>
+                    <td width="10%">@item.LastName</td>
+                    <td width="20%">@item.DocumentNumber</td>
+                    <td width="16%">@item.PhoneNumebr</td>
+                    <td width="30%">@item.Email</td>
+                    <td width="5%">@item.Gender</td>
+                    <td> <button type="button" onclick="detalheis($(this))" data-id="@item.CustomerId" class="btn btn-outline-info">Detalhes</button></td>
+                    <td><a class="btn btn-outline-primary" asp-controller="Customers" asp-action="UpdateCustomer" asp-route-id="@item.CustomerId">Alterar</a></td>
+                    <td> <button type="button" class="btn btn-outline-danger" data-id="@item.CustomerId" data-toggle="modal" data-target="#modalDelete">Excluir</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

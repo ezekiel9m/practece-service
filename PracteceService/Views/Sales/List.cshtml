@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PracteceService.Models.Sale.SaleModel>
+@{
+    ViewData["Title"] = "List Product";
+}
+
+<div class="container">
+    
+    <p></p>
+    <table class="display table table-hover" id="minhaTabela">
+        <h2 align="center"><b style="color: black">Tabela de Vendas</b></h2>
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" width="2%">Id</th>
+                <th scope="col" width="15%">Código</th>
+                <th scope="col" width="10%">Data de venda</th>
+                <th scope="col" width="15%">Total</th>
+                <th scope="col" width="5%">PId</th>
+                @*<th scope="col" width="29%">Produto</th>*@
+                <th scope="row" width="5%">CId</th> 
+                @*<th scope="row" width="29%">Cliente</th>*@
+                <th scope="row" width="29%"> </th>
+                <th scope="row" width="29%"> </th>
+                <th scope="row" width="29%"> <a class="btn btn-outline-secondary btn-sm pull-right" asp-controller="Sales" asp-action="CreateSale" style="color:white">Vender</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr style="color:black">
+                <td width="2%">@item.Id</td>
+                <td width="12%">@item.Code</td>
+                <td width="35%">@item.BillingDate.ToString("yyyy-MM-dd\\THH:mm:ss")</td>
+                <td width="20%">R$ @item.TotalAmount.ToString("n2")</td>
+                <td width="10%">@item.Product.ProductId</td>
+                @*<td width="15%">@item.Product.Name</td>*@
+                <td width="10%">@item.Customer.Code</td>
+                @*<td width="15%">@item.Customer.Name</td>*@
+                <td> <button type="button" onclick="detalheis($(this))" data-id="@item.Id" class="btn btn-outline-info">Detalhes</button></td>
+                <td><a class="btn btn-outline-primary" asp-controller="Sales" asp-action="UpdateSale" asp-route-id="@item.Id">Alterar</a></td>
+                <td> <button type="button" class="btn btn-outline-danger" data-id="@item.Id" data-toggle="modal" data-target="#modalDelete">Excluir</button></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

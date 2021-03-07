@@ -1,0 +1,487 @@
+{
+	"info": {
+		"_postman_id": "9f33cd10-da3e-4faf-a8c5-90f9d3d64099",
+		"name": "pratece-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "List customers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/customers",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Customer Specific",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/customers/58d91627-cb73-40c9-b42d-614bbf7958c0",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"customers",
+								"58d91627-cb73-40c9-b42d-614bbf7958c0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Ezekiel\",\n\t\"last_name\":\"Muxito\",\n\t\"document_number\":\"685.920.250-50\",\n\t\"email\":\"Kilson-key90@hotmail.com\",\n\t\"phone_numebr\":\"11951909333\",\n\t\"gender\":\"M\",\n    \"birth_date\": \"09/09/1999\",\n    \"is_active\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/customers",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identify\": 1,\r\n    \"customer_id\": \"58d91627-cb73-40c9-b42d-614bbf7958c0\",\r\n    \"name\": \"Helder\",\r\n    \"last_name\": \"Muxito\",\r\n    \"document_number\": \"685.920.250-55\",\r\n    \"email\": \"helder@hotmail.com\",\r\n    \"phone_numebr\": \"11951909333\",\r\n    \"gender\": \"M\",\r\n    \"create_date\": \"2021-03-01T00:36:38.433\",\r\n    \"update_date\": null,\r\n    \"is_active\": true\r\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/customers/58d91627-cb73-40c9-b42d-614bbf7958c0",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"customers",
+								"58d91627-cb73-40c9-b42d-614bbf7958c0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Customer",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/customers/28923465-2b51-4466-a48e-b02f2b58bcd1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"customers",
+								"28923465-2b51-4466-a48e-b02f2b58bcd1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "List Product",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/products",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product Specific",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/products/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Product",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"name\":\"Dell\",\r\n\t\"description\":\"computador da apple\",\r\n\t\"price\":5700.68\r\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/products",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SubscriptionCreated",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"product_id\": 1,\n    \"code\": \"3ZVJJTLD3V\",\n    \"name\": \"iPhone 11\",\n    \"description\": \"SmartPhone producto de tecnlogia\",\n    \"price\": 4600.0,\n    \"create_date\": \"1900-02-07T00:00:00\",\n    \"update_date\": null,\n    \"is_active\": true\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/products/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "api_key",
+								"value": "ak_live_b641e729c390ca5d562068ecb0ce53f3723811a5",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "e30.eyJjb21wYW55X2lkIjoiMzYiLCJjb21wYW55X2NvZGUiOiJhM2UwZTU3Yi1jNWZkLTQ3Y2EtODk5Mi01M2JlZTUzMDY3MGQiLCJwcm92aWRlcl9pZCI6IjMyIiwidXNlcl9pZCI6IjIzIiwic2lnbmF0dXJlIjoiZm1LSjdKbllJMyIsIm5iZiI6MTU0NDQ2ODM3NSwiZXhwIjoxNTQ0NDY4OTc1LCJpYXQiOjE1NDQ0NjgzNzV9."
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/products/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"products",
+								"1"
+							],
+							"query": [
+								{
+									"key": "createDateStart",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sale",
+			"item": [
+				{
+					"name": "List Sale",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/sales",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"sales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sale Specific",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/sales/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"sales",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Sale",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"product\":{\n        \"product_id\": 4\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/sales/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"sales",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Sale Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customer\":{\n        \"customer_id\": \"58d91627-cb73-40c9-b42d-614bbf7958c0\"\n    },\n    \"product\":{\n        \"product_id\": 1\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/v1/sales",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"sales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Sale",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/v1/sales",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"v1",
+								"sales"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

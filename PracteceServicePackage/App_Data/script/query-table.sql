@@ -1,0 +1,52 @@
+CREATE TABLE Customer(
+Code INT IDENTITY(1,1)  NOT NULL,
+CustomerId  VARCHAR(500) PRIMARY KEY NOT NULL,
+Name VARCHAR(500) NOT NULL,
+LastName VARCHAR(500) NOT NULL,
+DocumentNumber VARCHAR(50),
+Email VARCHAR(500),
+PhoneNumebr VARCHAR(500),
+IsActive BIT,
+CreateDate DATETIME,
+UpdateDate DATETIME,
+Gender VARCHAR(2),
+BirthDate DATETIME,
+Age INT
+);
+
+CREATE TABLE SaleStatus(
+SaleStatusId INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+Name VARCHAR(20) NOT NULL,
+Code VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Product(
+ProductId INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+Code VARCHAR(20) NOT NULL,
+Name VARCHAR(50) NOT NULL,
+Description VARCHAR(50), 
+Price FLOAT,
+CreateDate DATETIME,
+UpdateDate DATETIME,
+IsActive BIT,
+);
+
+CREATE TABLE Sale(
+Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+Code VARCHAR(15) NOT NULL,
+CustomerId VARCHAR(500) NOT NULL,
+SaleStatusId INT NOT NULL,
+ProductId INT NOT NULL,
+BillingDate DATETIME,
+Amount DECIMAL,
+TotalAmount DECIMAL,
+CustomerName VARCHAR(500),
+CreateDate DATETIME,
+UpdateDate DATETIME,
+CONSTRAINT FK_Sale_SaleStaus
+FOREIGN KEY (SaleStatusId) REFERENCES SaleStatus(SaleStatusId),
+CONSTRAINT FK_Sale_Customer
+FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId),
+CONSTRAINT FK_Sale_Product
+FOREIGN KEY (ProductId) REFERENCES Product(ProductId)
+);
