@@ -17,6 +17,7 @@
     <PackageReference Include="RestSharp" Version="106.11.7" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.8" />
+    <PackageReference Include="TecmExceptions" Version="1.1.7" />
   </ItemGroup>
 
   <ItemGroup>

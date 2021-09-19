@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {}
+    "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {}
   },
   "projects": {
-    "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
+    "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
+        "projectUniqueName": "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
         "projectName": "PracteceServicePackage",
-        "projectPath": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
-        "packagesPath": "C:\\Users\\emuxito\\.nuget\\packages\\",
-        "outputPath": "C:\\Apps\\practece-service\\PracteceServicePackage\\obj\\",
+        "projectPath": "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj",
+        "packagesPath": "C:\\Users\\Ezekiel Muxito\\.nuget\\packages\\",
+        "outputPath": "C:\\Developer\\practece-service\\PracteceServicePackage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emuxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ezekiel Muxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://veripag.pkgs.visualstudio.com/_packaging/packages-private%40Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

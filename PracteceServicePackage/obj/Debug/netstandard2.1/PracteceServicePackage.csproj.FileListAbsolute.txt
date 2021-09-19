@@ -16,3 +16,12 @@ C:\Apps\customer-service\PracteceServicePackage\obj\Debug\netstandard2.1\Practec
 C:\Apps\customer-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.dll
 C:\Apps\customer-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.pdb
 C:\Apps\customer-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.csprojAssemblyReference.cache
+C:\Developer\practece-service\PracteceServicePackage\bin\Debug\netstandard2.1\PracteceServicePackage.deps.json
+C:\Developer\practece-service\PracteceServicePackage\bin\Debug\netstandard2.1\PracteceServicePackage.dll
+C:\Developer\practece-service\PracteceServicePackage\bin\Debug\netstandard2.1\PracteceServicePackage.pdb
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.csproj.AssemblyReference.cache
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.AssemblyInfoInputs.cache
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.AssemblyInfo.cs
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.csproj.CoreCompileInputs.cache
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.dll
+C:\Developer\practece-service\PracteceServicePackage\obj\Debug\netstandard2.1\PracteceServicePackage.pdb

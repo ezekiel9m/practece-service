@@ -1620,6 +1620,18 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "TecmExceptions/1.1.7": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "9.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TecmExceptions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TecmExceptions.dll": {}
+        }
+      },
       "PracteceServicePackage/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -6263,6 +6275,18 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "TecmExceptions/1.1.7": {
+      "sha512": "MBppJsMPUueBmLxfL86sfaBomUlPKVuAfWVKA5RYL7KikKPE8caUc+WVtl3427NCc0PPlGRvJJnmzRACIPrwsw==",
+      "type": "package",
+      "path": "tecmexceptions/1.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TecmExceptions.dll",
+        "tecmexceptions.1.1.7.nupkg.sha512",
+        "tecmexceptions.nuspec"
+      ]
+    },
     "PracteceServicePackage/1.0.0": {
       "type": "project",
       "path": "../PracteceServicePackage/PracteceServicePackage.csproj",
@@ -6278,24 +6302,25 @@
       "RestSharp >= 106.11.7",
       "System.Data.SqlClient >= 4.8.2",
       "System.Linq.Dynamic.Core >= 1.2.8",
+      "TecmExceptions >= 1.1.7",
       "bootstrap >= 4.6.0",
       "jquery.datatables >= 1.10.15"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emuxito\\.nuget\\packages\\": {}
+    "C:\\Users\\Ezekiel Muxito\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Apps\\practece-service\\PracteceService\\PracteceService.csproj",
+      "projectUniqueName": "C:\\Developer\\practece-service\\PracteceService\\PracteceService.csproj",
       "projectName": "PracteceService",
-      "projectPath": "C:\\Apps\\practece-service\\PracteceService\\PracteceService.csproj",
-      "packagesPath": "C:\\Users\\emuxito\\.nuget\\packages\\",
-      "outputPath": "C:\\Apps\\practece-service\\PracteceService\\obj\\",
+      "projectPath": "C:\\Developer\\practece-service\\PracteceService\\PracteceService.csproj",
+      "packagesPath": "C:\\Users\\Ezekiel Muxito\\.nuget\\packages\\",
+      "outputPath": "C:\\Developer\\practece-service\\PracteceService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emuxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ezekiel Muxito\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6303,15 +6328,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://veripag.pkgs.visualstudio.com/_packaging/packages-private%40Local/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
-              "projectPath": "C:\\Apps\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj"
+            "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj": {
+              "projectPath": "C:\\Developer\\practece-service\\PracteceServicePackage\\PracteceServicePackage.csproj"
             }
           }
         }
@@ -6350,6 +6374,10 @@
             "target": "Package",
             "version": "[1.2.8, )"
           },
+          "TecmExceptions": {
+            "target": "Package",
+            "version": "[1.1.7, )"
+          },
           "bootstrap": {
             "target": "Package",
             "version": "[4.6.0, )"
@@ -6377,7 +6405,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

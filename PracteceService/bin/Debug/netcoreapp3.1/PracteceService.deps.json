@@ -8,7 +8,14 @@
       "TRACE",
       "DEBUG",
       "NETCOREAPP",
-      "NETCOREAPP3_1"
+      "NETCOREAPP3_1",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "8.0",
     "platform": "",
@@ -31,9 +38,9 @@
           "RestSharp": "106.11.7",
           "System.Data.SqlClient": "4.8.2",
           "System.Linq.Dynamic.Core": "1.2.8",
+          "TecmExceptions": "1.1.7",
           "bootstrap": "4.6.0",
           "jquery.datatables": "1.10.15",
-          "TecmExceptions": "1.1.1.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1441,6 +1448,20 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "TecmExceptions/1.1.7": {
+        "dependencies": {
+          "FluentValidation": "9.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TecmExceptions.dll": {
+            "assemblyVersion": "1.1.1.2",
+            "fileVersion": "1.1.1.2"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/TecmExceptions.dll": {}
+        }
+      },
       "PracteceServicePackage/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
@@ -1450,17 +1471,6 @@
         },
         "compile": {
           "PracteceServicePackage.dll": {}
-        }
-      },
-      "TecmExceptions/1.1.1.1": {
-        "runtime": {
-          "TecmExceptions.dll": {
-            "assemblyVersion": "1.1.1.1",
-            "fileVersion": "1.1.1.1"
-          }
-        },
-        "compile": {
-          "TecmExceptions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3826,13 +3836,15 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "TecmExceptions/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MBppJsMPUueBmLxfL86sfaBomUlPKVuAfWVKA5RYL7KikKPE8caUc+WVtl3427NCc0PPlGRvJJnmzRACIPrwsw==",
+      "path": "tecmexceptions/1.1.7",
+      "hashPath": "tecmexceptions.1.1.7.nupkg.sha512"
+    },
     "PracteceServicePackage/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TecmExceptions/1.1.1.1": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
